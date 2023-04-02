@@ -65,6 +65,10 @@ nav a {
 
 /* #region main */
 /* #region sidebar */
+.sidebar a i{
+  width: 20px;
+  height: 16px;
+}
 
 /* #region responsive */
 @media screen and (min-width: 992px) {
