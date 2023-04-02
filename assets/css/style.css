@@ -69,6 +69,7 @@ nav a {
   width: 20px;
   height: 16px;
 }
+/* #endregion sidebar */
 
 /* #region responsive */
 @media screen and (min-width: 992px) {
