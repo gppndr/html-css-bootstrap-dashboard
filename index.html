@@ -20,7 +20,7 @@
 <body>
     <header id="site_header" class="bg-dirtywhite py-2 sticky-top">
 
-        <nav class="navbar navbar-expand-lg bg-white">
+        <nav class="navbar navbar-expand-lg bg-white flex-nowrap">
             <div class="container-fluid d-flex justify-content-between">
 
                 <div class="logo">
@@ -71,7 +71,54 @@
 
     </header>
     <!-- /#site_header -->
-    <main id="site_main"></main>
+    <main id="site_main">
+        <div class="wrapper d-flex">
+
+            <div class="sidebar d-flex flex-column align-items-center justify-content-between py-4">
+
+                <div class="sidebar-top">
+
+                    <ul class=" m-0 p-0">
+                        <li class="py-2">
+                            <a href="#" class="text-light">
+                                <i class="fa-solid fa-house"></i>
+                                <span class="d-none d-lg-inline ps-3">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="py-2">
+                            <a href="#" class="text-light">
+                                <i class="fa-solid fa-chart-simple"></i>
+                                <span class="d-none d-lg-inline-flex ps-3">Stats</span>
+                            </a>
+                        </li>
+
+                        <li class="py-2">
+                            <a href="#" class="text-light">
+                                <i class="fa-solid fa-signal"></i>
+                                <span class="d-none d-lg-inline ps-3">Signals</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- ./sidebar-top -->
+
+                <div class="sidebar-bottom">
+                    <a href="#" class="text-light">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="d-none d-lg-inline ps-3">Admin</span>
+                    </a>
+
+                </div>
+                <!-- ./sidebar-bottom -->
+            </div>
+            <!-- ./sidebar -->
+
+            <div class="content overflow-y-auto"></div>
+            <!-- ./content -->
+        </div>
+        <!-- ./wrapper -->
+    </main>
     <!-- /#site_main -->
     <footer id="site_footer"></footer>
     <!-- /#site_footer -->
