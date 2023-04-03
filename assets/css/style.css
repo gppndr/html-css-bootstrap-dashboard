@@ -82,6 +82,16 @@ nav a {
   background-color: var(--blue-badge);
 }
 
+.avatar{
+  width: 25px;
+}
+td a{
+  color: var(--darkblue);
+}
+td i{
+  background-color: var(--dirtywhite);
+}
+
 /* #region responsive */
 
 @media (min-width: 576px) {
