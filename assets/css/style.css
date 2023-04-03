@@ -91,6 +91,11 @@ td a{
 td i{
   background-color: var(--dirtywhite);
 }
+.card-link{
+  text-decoration: underline;
+}
+/* #endregion content */
+/* #endregion main */
 
 /* #region responsive */
 
@@ -110,3 +115,4 @@ td i{
     width: 50% !important;
   }
 }
+/* #endregion responsive */
